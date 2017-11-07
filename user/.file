@@ -1,0 +1,4 @@
+Sat 04 Nov 2017 | 23:38:14 | Request Log into database Failure   SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phone' at row 1
+Sat 04 Nov 2017 | 23:43:18 | Request Log into database Failure   SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phone' at row 1
+Sat 04 Nov 2017 | 23:45:43 | Request Log into database Failure   SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phone' at row 1
+Sat 04 Nov 2017 | 23:45:49 | Request Log into database Failure   SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phone' at row 1

@@ -1,0 +1,60 @@
+<html>
+<body>
+    <form id="services-request-form" class="list-block store-data" method="post" action="handler.php" >
+        <div class="content-block-title">Fill in Below Fields to Help our team reach-out to you easily</div>
+        <div class="list-block">
+            <ul>
+    
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">
+                            <i class="icon f7-icons">person</i>
+                        </div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <input type="text" id="name" name="name" placeholder="Your Full-Name">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">
+                            <i class="icon f7-icons">phone_round_fill</i>
+                        </div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <input type="number" id="phone" name="phone" placeholder="Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">
+                            <i class="icon f7-icons">persons</i>
+                        </div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <select id="gender" name="gender">
+                                    <option value="choose">Choose Gender...</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <input type="text" value="services" name="request" />
+            <input type="text" value="-1.9783635619001773" name="lat" />
+            <input type="text" value="36.987653824733" name="lng" />
+            <input type="submit" id="submit-request-details" class="button button-raised button-fill color-purple" value="SEND DETAILS"
+            />
+        </div>
+    </form>
+</body>
+
+</html>
